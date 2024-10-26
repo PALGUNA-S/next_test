@@ -1,6 +1,5 @@
 import { Box, Container, Grid, Skeleton, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import AboutBanner from '../../../public/assets/About_section/About_Banner_bg.svg'
 
 const Banner = () => {
   const [loading, setLoading] = useState(true);
@@ -15,7 +14,7 @@ const Banner = () => {
   return (
     <section id="banner"
       style={{
-        backgroundImage: `url(${AboutBanner.src})`,
+        backgroundImage: `url('/assets/About_section/About_Banner_bg.svg')`,
         backgroundColor: '#0f55a2',
         backgroundPosition: "center",
         backgroundSize: "cover",
