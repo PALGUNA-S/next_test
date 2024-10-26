@@ -14,7 +14,7 @@ export default function HomePage() {
         <meta property="og:description" content="Efficient and cost-effective inward remittance services tailored exclusively to business customers." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.leremitt.com/" />
-        <meta property="og:image" content="https://yourwebsite.com/images/home.jpg" />
+        <meta property="og:image" content="https://www.leremitt.com/Images/Home_section-Svg/topbannerbg.svg" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="LeRemitt" />
       </Head>

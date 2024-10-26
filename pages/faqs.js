@@ -13,7 +13,7 @@ export default function FaqsPage() {
         <meta property="og:description" content="Get answers to all your questions about LeRemitt. Our comprehensive FAQ page covers everything you need to know." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.leremitt.com/faqs" />
-        <meta property="og:image" content="https://yourwebsite.com/images/faqs.jpg" />
+        <meta property="og:image" content="https://www.leremitt.com/Images/Reusable-inside/LeRemitt_logo-re_svg.svg" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="LeRemitt" />
       </Head>

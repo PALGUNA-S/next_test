@@ -13,7 +13,7 @@ export default function ProductServicesPage() {
         <meta property="og:description" content="Looking for a reliable inward remittance solution? We're the answer. Accept international payments in India from the world. Trusted by Top Indian businesses" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.leremitt.com/accept-international-payments-for-businesses" />
-        <meta property="og:image" content="https://yourwebsite.com/images/product-services.jpg" />
+        <meta property="og:image" content="https://www.leremitt.com/Images/about/illus_06.svg" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="LeRemitt" />
       </Head>

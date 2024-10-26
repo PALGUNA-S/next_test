@@ -13,7 +13,7 @@ export default function AboutPage() {
         <meta property="og:description" content="Learn about LeRemitt's mission and team, committed to making international trade for MSMEs fast, secure, and affordable." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.leremitt.com/about" />
-        <meta property="og:image" content="https://yourwebsite.com/images/about.jpg" />
+        <meta property="og:image" content="https://www.leremitt.com/Images/about/illus_03.svg" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="LeRemitt" />
       </Head>

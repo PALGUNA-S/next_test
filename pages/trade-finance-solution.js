@@ -13,7 +13,7 @@ export default function TradeFinancePage() {
         <meta property="og:description" content="Struggling with cash flow and payment delays in your export business? Our trade finance solutions empower Indian exporters to overcome challenges, improve cash flows" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.leremitt.com/trade-finance-solution" />
-        <meta property="og:image" content="https://yourwebsite.com/images/trade-finance.jpg" />
+        <meta property="og:image" content="https://www.leremitt.com/Images/about/illus_04.svg" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="LeRemitt" />
       </Head>

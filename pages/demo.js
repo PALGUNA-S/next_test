@@ -13,7 +13,7 @@ export default function DemoPage() {
         <meta property="og:description" content="Watch our demo videos and explore how LeRemitt's platform simplifies business payments." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.leremitt.com/demo" />
-        <meta property="og:image" content="https://yourwebsite.com/images/demo.jpg" />
+        <meta property="og:image" content="https://www.leremitt.com/Images/Reusable-inside/LeRemitt_logo-re_svg.svg" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="LeRemitt" />
       </Head>
