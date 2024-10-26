@@ -1,0 +1,14 @@
+#Bmedia {
+  background: #eff2fc;
+}
+@media screen and (min-width: 200px) and (max-width: 11499px) {
+  #Bmedia {
+    padding: 12rem 1rem 5rem 1rem !important;
+  }
+}
+
+@media (min-width: 1150px) {
+  #Bmedia {
+    padding: 12rem 15rem 5rem 15rem !important;
+  }
+}

@@ -1,0 +1,91 @@
+.lrworks {
+  background: url('/assets/Home_section/How_it_woks_bg.svg');
+  background-color: #e6fafc;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+.underlineMain {
+  background: #d7d9e0;
+  border-radius: 5px;
+  height: 5px;
+  width: 22%;
+  position: relative;
+}
+.underline {
+  position: absolute;
+  height: 5px;
+  width: 33.3%;
+  background-color: #00b8d4;
+  transition: left 0.3s ease-in-out;
+}
+.centeredDiv {
+  display: flex;
+  justify-content: center;
+}
+.mobhoney {
+  padding: 7rem 0 0 0;
+}
+.mobitem,
+.mobitem_2,
+.mobitem_3,
+.mobitem_4 {
+  width: 110px;
+  height: 135px;
+  /* background: #7de2ee; */
+  background: #32c1d1b5;
+  clip-path: polygon(0% 25%, 50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%);
+  transition: opacity 0.5s ease-in-out;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobitemMain,
+.mobitemMainTwo,
+.mobitemMainThree {
+  width: 110px;
+  height: 135px;
+  cursor: pointer;
+  background: #142d82;
+  clip-path: polygon(0% 25%, 50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobcomb_1 {
+  display: grid;
+  grid-template-rows: 105px 135px;
+  margin-bottom: -2.2rem;
+}
+.mobcomb_2 {
+  display: grid;
+  grid-template-rows: 105px 135px;
+}
+.mobcomb_3 {
+  display: grid;
+  grid-template-rows: 105px 135px;
+}
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.mobitemNullOne {
+  width: 110px;
+  height: 135px;
+  position: relative;
+  left: 7px;
+  top: -136px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><polygon points="50,1 50,0 100,25 100,75 99,75 99,25" fill="transparent" stroke="rgba(38,69,175,0.3)" stroke-width="2" stroke-dasharray="2,2" /></svg>');
+  background-size: 100% 100%;
+}
+.mobitemNullTwo {
+  width: 110px;
+  height: 135px;
+  position: relative;
+  left: -3px;
+  top: -136px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><polygon points="51,0 1,25 1,75 0,75 0,25 50,0" fill="transparent" stroke="rgba(38,69,175,0.3)" stroke-width="2" stroke-dasharray="2,2" /></svg>');
+  background-size: 100% 100%;
+}

@@ -1,0 +1,432 @@
+.customFlag {
+  width: 33px;
+  height: 18px;
+  padding-right: 5px;
+}
+.homeBanner {
+  background-color: #1c5ba2;
+  background-image: url('/assets/Home_section/Top_Hero_Banner.svg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  color: white;
+  overflow-x: hidden;
+}
+.converter {
+  background-color: rgba(77, 150, 240, 0.2);
+  padding: 2px 17px 15px 0;
+}
+.converter input {
+  width: 100%;
+  border-bottom: 2px solid #04cee5;
+}
+.Historicalconverter {
+  background-color: rgba(77, 150, 240, 0.2);
+  padding: 2px 20px 15px 0;
+}
+.Historicalconverter input {
+  width: 100%;
+  border-bottom: 2px solid #04cee5;
+}
+/* .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+  color: white !important;
+}
+.css-bpeome-MuiSvgIcon-root-MuiSelect-icon {
+  color: white !important;
+} */
+/* .MuiSvgIcon-root {
+  color: white !important;
+} */
+.whiteText {
+  color: white;
+  animation: bounce 2s ease infinite;
+}
+.blackText {
+  color: rgba(255, 255, 255, 0.4);
+}
+.whiteText,
+.blackText {
+  padding: 10px 5px 0 5px;
+}
+.cadpole,
+.gbppole,
+.usdpole,
+.eurpole,
+.inrpole {
+  width: 50px;
+}
+.cadFlag,
+.gbpFlag,
+.usdFlag,
+.eurFlag,
+.inrFlagFirst,
+.inrFlag-second {
+  display: flex;
+  position: absolute;
+}
+.cadFlag {
+  left: 15%;
+  top: 32%;
+}
+.usdFlag {
+  left: 20%;
+  top: 46%;
+}
+.gbpFlag {
+  left: 80%;
+  top: 8%;
+}
+.eurFlag {
+  left: 92%;
+  top: 20%;
+}
+.inrFlagFirst,
+.inrFlag-second {
+  left: 128%;
+  top: 42%;
+}
+/* Repple section */
+.hidden {
+  visibility: hidden;
+}
+.visible {
+  visibility: visible;
+}
+.ripplecad,
+.ripplegbp,
+.rippleusd,
+.rippleeur,
+.rippleinr,
+.rippleinrsec {
+  position: relative;
+}
+.rippleusd {
+  left: 50px;
+  top: 0px;
+}
+.rippleinr {
+  left: 50px;
+  top: 0px;
+}
+.rippleinrsec {
+  left: -50px;
+  top: 0px;
+}
+.rippleeur {
+  left: 50px;
+  top: 0px;
+}
+.ripplecad {
+  left: 50px;
+  top: 0px;
+}
+.ripplegbp {
+  left: 50px;
+  top: 0px;
+}
+
+@media (min-width: 2000px) and (max-width: 2200px) {
+  .homeBanner {
+    padding: 10rem 0 !important;
+    background-position: 65%;
+  }
+  .whiteText,
+  .blackText {
+    padding: 10px 5px 0 5px;
+  }
+  .cadFlag {
+    left: 12%;
+    top: 38%;
+  }
+  .usdFlag {
+    left: 18%;
+    top: 48%;
+  }
+  .gbpFlag {
+    left: 70%;
+    top: 18%;
+  }
+  .eurFlag {
+    left: 80%;
+    top: 26%;
+  }
+  .inrFlagFirst {
+    left: 114%;
+    top: 38%;
+  }
+  /* .inrFlag-second {
+    display: none;
+  } */
+}
+@media (min-width: 1800px) and (max-width: 2000px) {
+  .homeBanner {
+    padding: 10rem 0 !important;
+    background-position: 65%;
+  }
+  .whiteText,
+  .blackText {
+    padding: 10px 5px 0 5px;
+  }
+  .cadFlag {
+    left: 10%;
+    top: 36%;
+  }
+  .usdFlag {
+    left: 16%;
+    top: 48%;
+  }
+  .gbpFlag {
+    left: 65%;
+    top: 18%;
+  }
+  .eurFlag {
+    left: 75%;
+    top: 26%;
+  }
+  .inrFlagFirst {
+    left: 106%;
+    top: 36%;
+  }
+  /* .inrFlag-second {
+    display: none;
+  } */
+}
+@media (min-width: 1600px) and (max-width: 1800px) {
+  .homeBanner {
+    padding: 10rem 0 !important;
+    background-position: 65%;
+  }
+  .whiteText,
+  .blackText {
+    padding: 10px 5px 0 5px;
+  }
+  .cadFlag {
+    left: 10%;
+    top: 32%;
+  }
+  .usdFlag {
+    left: 16%;
+    top: 44%;
+  }
+  .gbpFlag {
+    left: 60%;
+    top: 18%;
+  }
+  .eurFlag {
+    left: 70%;
+    top: 26%;
+  }
+  .inrFlagFirst {
+    left: 102%;
+    top: 36%;
+  }
+  /* .inrFlag-second {
+    display: none;
+  } */
+}
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .homeBanner {
+    padding: 6.5rem 0 !important;
+    background-position: 65%;
+  }
+  .whiteText,
+  .blackText {
+    padding: 10px 5px 0 5px;
+  }
+
+  .cadFlag {
+    left: 10%;
+    top: 30%;
+  }
+  .usdFlag {
+    left: 16%;
+    top: 40%;
+  }
+  .gbpFlag {
+    left: 54%;
+    top: 12%;
+  }
+  .eurFlag {
+    left: 62%;
+    top: 22%;
+  }
+  .inrFlagFirst {
+    left: 88%;
+    top: 33%;
+  }
+  /* .inrFlag-second {
+    display: none;
+  } */
+}
+@media (min-width: 1250px) and (max-width: 1400px) {
+  .homeBanner {
+    padding: 6.5rem 0 !important;
+    background-position: 80%;
+  }
+  .whiteText,
+  .blackText {
+    padding: 10px 5px 0 5px;
+  }
+  .cadFlag {
+    left: 3%;
+    top: 28%;
+  }
+  .usdFlag {
+    left: 8%;
+    top: 42%;
+  }
+  .gbpFlag {
+    left: 45%;
+    top: 12%;
+  }
+  .eurFlag {
+    left: 52%;
+    top: 22%;
+  }
+  .inrFlagFirst {
+    left: 78%;
+    top: 33%;
+  }
+  /* .inrFlag-second {
+    display: none;
+  } */
+}
+@media (min-width: 1140px) and (max-width: 1250px) {
+  .homeBanner {
+    padding: 6.5rem 0 !important;
+    background-position: 82%;
+  }
+  .whiteText,
+  .blackText {
+    padding: 10px 5px 0 5px;
+  }
+  .cadFlag {
+    left: -2%;
+    top: 28%;
+  }
+  .usdFlag {
+    left: 3%;
+    top: 41%;
+  }
+  .gbpFlag {
+    left: 40%;
+    top: 12%;
+  }
+  .eurFlag {
+    left: 48%;
+    top: 22%;
+  }
+  .inrFlagFirst {
+    left: 74%;
+    top: 33%;
+  }
+  /* .inrFlag-second {
+    display: none;
+  } */
+}
+@media (min-width: 1060px) and (max-width: 1140px) {
+  .homeBanner {
+    padding: 7rem 0 !important;
+    background-position: 81%;
+    background-size: cover;
+    object-fit: cover;
+  }
+  .whiteText,
+  .blackText {
+    padding: 10px 5px 0 5px;
+  }
+  .cadFlag {
+    left: -6%;
+    top: 28%;
+  }
+  .usdFlag {
+    left: -1%;
+    top: 40%;
+  }
+  .gbpFlag {
+    left: 39%;
+    top: 12%;
+  }
+  .eurFlag {
+    left: 48%;
+    top: 22%;
+  }
+  .inrFlagFirst {
+    left: 73%;
+    top: 33%;
+  }
+  /* .inrFlag-second {
+    display: none;
+  } */
+}
+@media (min-width: 940px) and (max-width: 1060px) {
+  .homeBanner {
+    padding: 7rem 0 !important;
+    background-position: 70%;
+    background-size: cover;
+    object-fit: cover;
+  }
+  .whiteText,
+  .blackText {
+    padding: 10px 5px 0 5px;
+  }
+  .cadFlag {
+    left: -8%;
+    top: 28%;
+  }
+  .usdFlag {
+    left: -2%;
+    top: 42%;
+  }
+  .gbpFlag {
+    left: 44%;
+    top: 12%;
+  }
+  .eurFlag {
+    left: 53%;
+    top: 22%;
+  }
+  .inrFlagFirst {
+    left: 74%;
+    top: 34%;
+  }
+  /* .inrFlag-first {
+    display: none;
+  } */
+}
+@media (min-width: 900px) and (max-width: 940px) {
+  .homeBanner {
+    padding: 7rem 0 !important;
+    background-position: 70%;
+    background-size: cover;
+    object-fit: cover;
+  }
+  .whiteText,
+  .blackText {
+    padding: 10px 5px 0 5px;
+  }
+  .cadFlag {
+    left: -9%;
+    top: 25%;
+  }
+  .usdFlag {
+    left: -3%;
+    top: 38%;
+  }
+  .gbpFlag {
+    left: 42%;
+    top: 12%;
+  }
+  .eurFlag {
+    left: 54%;
+    top: 22%;
+  }
+  .inrFlagFirst {
+    left: 74%;
+    top: 32%;
+  }
+  /* .inrFlag-first {
+    display: none;
+  } */
+}
+

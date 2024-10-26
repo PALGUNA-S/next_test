@@ -1,0 +1,51 @@
+.GetTouch {
+  background-color: #cff5f7;
+  background-image: url('/Assets/Reusable_section/LeConnect_bg.svg');
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+.arrow1,
+.arrow2 {
+  position: absolute;
+}
+.arrow1 {
+  width: 6%;
+  top: 100px;
+  right: 260px;
+}
+.arrow2 {
+  top: 250px;
+  right: 120px;
+}
+@media screen and (max-width: 900px) {
+  .arrow1 {
+    display: none;
+  }
+  .arrow2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1150px) {
+  .arrow1 {
+    width: 5%;
+    top: 100px;
+    right: 100px;
+  }
+  .arrow2 {
+    display: none;
+  }
+}
+
+/* @media screen and (min-width: 200px) and (max-width: 11499px) {
+  .GetTouch {
+    padding: 12rem 2rem 5rem 2rem !important;
+  }
+}
+
+@media (min-width: 1150px) {
+  .GetTouch {
+    padding: 15rem 15rem 8rem 15rem !important;
+  }
+} */

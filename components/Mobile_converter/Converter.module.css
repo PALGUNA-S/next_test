@@ -1,0 +1,25 @@
+.mobile_screen {
+  background: url('https://www.leremitt.com/Images/about/ab-bg_new.svg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+.Mobconverter {
+  padding: 2px 20px 15px 0;
+}
+.Mobconverter input {
+  width: 100%;
+  border-bottom: 2px solid #04cee5;
+}
+/* .MobHistoricalconverter {
+  padding: 2px 20px 15px 0;
+} */
+.mobHistoricalconverter input {
+  width: 100%;
+  border-bottom: 2px solid #04cee5;
+}
+@media (min-width: 100px) and (max-width: 769px) {
+  .mobile_screen {
+    padding-top: 8rem !important;
+  }
+}
