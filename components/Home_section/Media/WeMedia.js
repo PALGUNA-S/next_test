@@ -32,7 +32,7 @@ const WeMedia = () => {
     >
       <Container>
         <Grid container>
-          <Grid item sx={12} md={4}>
+          <Grid item xs={12} md={4}>
             <Typography pb={3} variant="h2" sx={{ fontWeight: "600", fontSize: '2.25rem' }}>
               {/* We are in media */}
               LeRemitt in media
